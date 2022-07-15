@@ -21,10 +21,8 @@ const items = Init(seed);
 for (let i = 1; i < 6; i++) {
     const elemToUpdate = document.querySelector(`#slot${i}`);
 
-    const imgPath = items[i-1].Image;
-    if (imgPath) {
-        elemToUpdate.innerHTML = `<img src="${imgPath}" />`;
-    }
+    const imgPath = items[i-1].GetImageURL();
+    elemToUpdate.innerHTML = `<br/><img class="item" src="${imgPath}" /><br/>`;
 
     elemToUpdate.append(`#${i}: ${items[i - 1].Name}`);
 }
