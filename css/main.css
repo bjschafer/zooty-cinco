@@ -17,7 +17,8 @@ body {
 }
 
 .container {
-  width: 976px;
+  width: 100%;
+  max-width: 595px;
   margin: 0 auto;
   padding: 8px 0 16px 16px;
   overflow: hidden;
@@ -134,7 +135,7 @@ td {
 
 #bingoPage #results {
   float: left;
-  width: 594px;
+  width: 100%;
   margin-right: 16px;
   text-align: right;
 }
