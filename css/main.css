@@ -454,3 +454,13 @@ td {
 #bingo tr td.redsquare.hover {
   background: #770022;
 }
+
+#links {
+  float: right;
+  padding-right: 2em;
+}
+
+#links a:hover,
+#links a.hover {
+  text-decoration: underline;
+}
